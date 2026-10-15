@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silverswift</title>
+</head>
+<body id="top">
+
+    <header>
+            <img src="CAT.jpg" alt="SwiftCart Logo" width="100" height="100">
+
+
+        <h1> Silverswift</h1>
+        <p>Deliver to: Home, 123 Silver St.</p>
+
+        <form action="#" method="get">
+            <input type="search" name="search"
+                   placeholder="Search electronics, clothing...">
+            <button type="submit">Search</button>
+        </form>
+
+        <p><a href="#cart">🛒 Cart</a></p>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#products">Discover</a> |
+            <a href="#cart">Cart</a> |
+            <a href="#saved">Saved</a> |
+            <a href="#profile">Profile</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>SWIFT DEAL</h2>
+            <h2>Up to 40% Off Tech Essentials</h2>
+            <p>Shop Now and find your favorite products.</p>
+            <a href="#products"><button type="button">Shop Now</button></a>
+
+            <h3>Categories</h3>
+            <p>
+                <a href="#products"> Mobile</a> |
+                <a href="#products"> Laptop</a> |
+                <a href="#products"> Fashion</a> |
+                <a href="#products"> Audio</a> |
+                <a href="#products"> Watch</a>
+            </p>
+
+            <h3>⚡ Swift Delivery</h3>
+            <p>Under 2 hours</p>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <img src="head.jpg"
+                             alt="Wireless headphones" width="150" height="150">
+                        <h4>Wireless Headphones</h4>
+                        <p>₱129.00</p>
+                        <p>45 min delivery</p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                    <td>
+                        <img src="watch.jpg"
+                             alt="Smart Watch Gen 5" width="150" height="150">
+                        <h4>Smart Watch Gen 5</h4>
+                        <p>₱299.00</p>
+                        <p>30 min delivery</p>
+                        <button type="button">Add to Cart</button>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>More Products</h3>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <img src="bag.jpg"
+                             alt="Canvas Backpack Grey" width="100" height="100">
+                    </td>
+                    <td>
+                        <h4>Canvas Backpack Grey</h4>
+                        <p>Minimalist &amp; Durable</p>
+                        <p>₱45.00</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="wall.jpg"
+                             alt="Leather Wallet" width="100" height="100">
+                    </td>
+                    <td>
+                        <h4>Leather Wallet</h4>
+                        <p>Premium Full Grain</p>
+                        <p>₱35.00</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="products">
+            <h2>Discover Products</h2>
+
+            <form action="#" method="get">
+                <label for="product-search">Search:</label>
+                <input type="search" id="product-search"
+                       name="product-search" placeholder="Headphones">
+
+                <button type="button">Filters</button>
+
+                <label for="sort">Sort by:</label>
+                <select id="sort" name="sort">
+                    <option>Popular</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                </select>
+
+                <label for="price">Price Range:</label>
+                <select id="price" name="price">
+                    <option>All Prices</option>
+                    <option>Below ₱200</option>
+                    <option>₱200 and Above</option>
+                </select>
+            </form>
+
+            <p>124 RESULTS</p>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <img src="audtech.jpg"
+                             alt="Wireless Noise Cancelling Headphones"
+                             width="150" height="150">
+                        <p>SWIFT</p>
+                        <p>AUDIO-TECHNICA</p>
+                        <h3>Wireless Noise Cancelling...</h3>
+                        <p>★ 4.8 (2.4k)</p>
+                        <strong>₱199.00</strong>
+                        <p>2h delivery</p>
+                        <p><a href="#details">View Product</a></p>
+                    </td>
+                    <td>
+                        <img src="Sony.jpg"
+                             alt="Sony WH-1000XM5 Premium Wireless"
+                             width="150" height="150">
+                        <p>SONY</p>
+                        <h3>WH-1000XM5 Premium Wireless</h3>
+                        <p>★ 4.4 (1.8k)</p>
+                        <strong>₱348.00</strong>
+                        <p>3h delivery</p>
+                        <p><a href="#details">View Product</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="bose.jpg"
+                             alt="Bose QuietComfort 45 Over-Ear"
+                             width="150" height="150">
+                        <p>BOSE</p>
+                        <h3>QuietComfort 45 Over-Ear</h3>
+                        <p>★ 4.7 (1.2k)</p>
+                        <strong>₱279.00</strong>
+                        <p>Next Day</p>
+                        <p><a href="#details">View Product</a></p>
+                    </td>
+                    <td>
+                        <img src="senn.jpg"
+                             alt="Sennheiser Momentum 4 Wireless"
+                             width="150" height="150">
+                        <p>SWIFT</p>
+                        <p>SENNHEISER</p>
+                        <h3>Momentum 4 Wireless</h3>
+                        <p>★ 4.8 (890)</p>
+                        <strong>₱319.00</strong>
+                        <p>1h delivery</p>
+                        <p><a href="#details">View Product</a></p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section id="details">
+            <h2>Product Details</h2>
+
+            <p>
+                <a href="#products">← Back</a> |
+                <a href="#cart">♡ Saved</a>
+            </p>
+
+            <img src="audtech.jpg"
+                 alt="Wireless headphones product gallery"
+                 width="350" height="250">
+
+            <p>AUDIO-TECHNICA</p>
+            <p>★ 4.8 (2,450 reviews)</p>
+
+            <h2>Wireless Noise Cancelling Over-Ear Headphones (Black)</h2>
+
+            <h2>₱199.00</h2>
+            <p>Original Price: ₱249.00</p>
+            <p>20% OFF</p>
+
+            <h3>⚡ SILVERSWIFT DELIVERY</h3>
+            <p>Get it in 45 mins</p>
+            <p>Order within the next 12 minutes to qualify.</p>
+
+            <h3>Choose Color</h3>
+            <p>⚫ Black | ⚪ Silver | ⚪ White</p>
+
+            <p>
+                <a href="#cart"><button type="button">🛒 Add to Cart</button></a>
+            </p>
+
+            <p>Cancelling headphones feature additional microphones...</p>
+            <p><a href="#more-details">Read more</a></p>
+
+            <h3>Battery Life</h3>
+            <p>Up to 30 Hours</p>
+
+            <h3>Connectivity</h3>
+            <p>Bluetooth 5.2</p>
+
+            <section id="more-details">
+                <h3>Product Information</h3>
+                <p>Wireless over-ear headphones with noise cancellation.</p>
+            </section>
+        </section>
+
+        <hr>
+
+        <section id="cart">
+            <h2>Shopping Cart (2)</h2>
+            <p><a href="#home">←</a> <a href="#home">CLEAR ALL</a></p>
+
+            <p>⚡ Your items are eligible for 45-min delivery.</p>
+
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                    <td>
+                        <img src="head.jpg"
+                             alt="Wireless Headphones" width="80" height="80">
+                    </td>
+                    <td>
+                        <h3>Wireless Headphones</h3>
+                        <p>Black | Over-Ear</p>
+                        <strong>$199.00</strong>
+                    </td>
+                    <td>
+                        <button type="button">−</button>
+                        <input type="number" name="headphones-qty"
+                               min="1" max="20" value="1">
+                        <button type="button">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="watch.jpg"
+                             alt="Smart Watch Gen 5" width="80" height="80">
+                    </td>
+                    <td>
+                        <h3>Smart Watch Gen 5</h3>
+                        <p>Silver | 44mm</p>
+                        <strong>$299.00</strong>
+                    </td>
+                    <td>
+                        <button type="button">−</button>
+                        <input type="number" name="watch-qty"
+                               min="1" max="20" value="1">
+                        <button type="button">+</button>
+                    </td>
+                </tr>
+            </table>
+
+            <h3>Promo Code</h3>
+            <form action="#" method="get">
+                <input type="text" name="promo" placeholder="Enter code">
+                <button type="submit">Apply</button>
+            </form>
+
+            <p>Subtotal: $498.00</p>
+            <p>Delivery Fee: $0.00</p>
+            <p>Tax: $40.00</p>
+
+            <hr>
+            <h2>TOTAL: $538.00</h2>
+
+            <p><a href="#checkout"><button type="button">Proceed to Checkout →</button></a></p>
+        </section>
+
+        <hr>
+
+        <section id="checkout">
+            <h2>Checkout</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Shipping Details</legend>
+
+                    <p>
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"
+                               placeholder="name@example.com" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </p>
+
+                    <p>
+                        <label for="address">Address:</label><br>
+                        <textarea id="address" name="address" rows="3" cols="35" required></textarea>
+                    </p>
+
+                    <p>
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" list="cities" required>
+                        <datalist id="cities">
+                            <option value="Baguio City">
+                            <option value="Manila">
+                            <option value="Quezon City">
+                            <option value="Taguig">
+                        </datalist>
+                    </p>
+
+                    <p>
+                        <label for="date">Delivery Date:</label>
+                        <input type="date" id="date" name="date">
+                    </p>
+
+                    <p>
+                        <label for="delivery">Delivery Option:</label>
+                        <select id="delivery" name="delivery">
+                            <option>Standard</option>
+                            <option>Express</option>
+                            <option>Store Pick-up</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Payment Method</legend>
+
+                    <p>
+                        <input type="radio" id="card" name="payment" value="card" checked>
+                        <label for="card">Credit / Debit Card</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="cod" name="payment" value="cod">
+                        <label for="cod">Cash on Delivery</label>
+                    </p>
+
+                    <p>
+                        <input type="radio" id="ewallet" name="payment" value="ewallet">
+                        <label for="ewallet">E-Wallet</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to the Terms and Conditions.</label>
+                </p>
+
+                <button type="submit">Place Order</button>
+                <button type="reset">Clear</button>
+            </form>
+        </section>
+        <section id="map">
+
+            <h2>Find Our Location</h2>
+
+            <p>
+                Our main location is Luneta Park.
+            </p>
+
+            <p>
+                <a href="https://www.google.com/maps/search/luneta+park/@15.4953951,120.1261343,9z"
+                   target="_blank"
+                   rel="noopener">
+                    View Luneta Park on Google Maps
+                </a>
+            </p>
+
+            <hr>
+
+        </section>
+
+        <section id="saved">
+            <h2>Saved</h2>
+            <p>♡ Your saved products.</p>
+        </section>
+
+        <section id="profile">
+            <h2>Profile</h2>
+            <p>Your account profile.</p>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 SwiftCart</p>
+        <a href="#top">Back to Top</a>
+    </footer>
+
+</body>
+</html>
+```
